@@ -48,7 +48,12 @@ main button {
 	border-color: #da3b48;
 	font-family: 'Bebas Neue', cursive;
 	font-size: 20px;
-	margin-top: 40px;
+	margin-top: 20px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border: 3px solid #db3c49;
+	cursor: pointer;
 }
 
 main button:hover {
@@ -60,6 +65,7 @@ main button:hover {
 	display: flex;
 	align-items: center;
 }
+
 
 @media screen and (min-width: 800px) {
 main img {
