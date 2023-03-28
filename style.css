@@ -1,0 +1,89 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	height: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Gruppo', cursive;
+	border-bottom: 2px solid black;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+main img {
+	width: 400px;
+	height: 250px;
+}
+
+main h1	{
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	margin: 0px 20px 0px 20px;
+}
+
+main p {
+	font-family: 'Gruppo', cursive;
+	font-size: 20px;
+	text-align: center;
+	margin: 0px 40px 0px 40px;
+	
+}
+
+main button {
+	margin: 0 auto;
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	border-color: #da3b48;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+main button:hover {
+	background-color: #da3b48;
+	transition: 0.5s;
+}
+
+.boton {
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (min-width: 800px) {
+main img {
+	width: 550px;
+	height: 350px;
+	}
+
+main h1	{
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	margin: 0px 20px 0px 20px;
+}
+
+main button {
+	margin: 0 auto;
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	border-color: #da3b48;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+}
